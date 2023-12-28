@@ -1,3 +1,5 @@
+# Reference: https://www.youtube.com/watch?v=U2SozAs9RzA&ab_channel=NeetCode
+
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
         right = max(piles)
