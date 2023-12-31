@@ -1,6 +1,9 @@
 # Reference: https://www.youtube.com/watch?v=y1b8pObvndA&ab_channel=CodeHelp-byBabbar
 # https://www.youtube.com/watch?v=YL3b3F7sJBM&ab_channel=PrakashShukla
 # https://www.youtube.com/watch?v=Ua0GhsJSlWM&ab_channel=NeetCode
+# https://www.youtube.com/watch?v=p09b1IzQa_A&ab_channel=AnujBhaiya
+# https://www.youtube.com/watch?v=9xCpskXPRNQ&ab_channel=AnujBhaiya
+# https://www.youtube.com/watch?v=0yvOxPwe3Dg&ab_channel=AnujBhaiya
 
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
