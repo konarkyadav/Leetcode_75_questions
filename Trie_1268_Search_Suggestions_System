@@ -1,0 +1,29 @@
+# https://www.youtube.com/watch?v=3qwuzJfrbOA&ab_channel=TimothyHChang
+# https://www.youtube.com/watch?v=D4T2N0yAr20&ab_channel=NeetCode
+# class Solution:
+#     def suggestedProducts(self, products: List[str], searchWord: str) -> List[List[str]]:
+#         answer = []
+#         products.sort()
+
+#         for i in range (len(searchWord)):
+#             tmp = []
+#             for p in products:
+#                 if (i < len(p) and searchWord[i] == p[i]):
+#                     tmp.append(p)
+#             answer.append(tmp[:3])
+#             products = tmp
+#         return answer
+
+class Solution:
+    def suggestedProducts(self, products: List[str], searchWord: str) -> List[List[str]]:
+        answer = []
+        products.sort()
+
+        for i in range (len(searchWord)):
+            tmp = []
+            for p in products:
+                if (i < len(p) and searchWord[i] == p[i]):
+                    tmp.append(p)
+            answer.append(tmp[:3])
+            products = tmp
+        return answer
